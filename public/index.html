@@ -8,7 +8,29 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <div class="slider-container">
+    <div class="slider-track" id="sliderTrack">
+      <div class="slide"><img src="https://picsum.photos/id/10/800/450" alt="Image 1"></div>
+      <div class="slide"><img src="https://picsum.photos/id/20/800/450" alt="Image 2"></div>
+      <div class="slide"><img src="https://picsum.photos/id/30/800/450" alt="Image 3"></div>
+      <div class="slide"><img src="https://picsum.photos/id/40/800/450" alt="Image 4"></div>
+      <div class="slide"><img src="https://picsum.photos/id/50/800/450" alt="Image 5"></div>
+      <div class="slide"><img src="https://picsum.photos/id/60/800/450" alt="Image 6"></div>
+    </div>
+
+    <button class="nav-btn prev" id="prevBtn" aria-label="前へ">&lt;</button>
+    <button class="nav-btn next" id="nextBtn" aria-label="次へ">&gt;</button>
+
+    <div class="indicator-container" id="indicatorContainer">
+      <span class="dot active"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+      <span class="dot"></span>
+    </div>
+  </div>
+
   <script src="script.js" defer></script>
 </body>
 </html>
